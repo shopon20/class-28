@@ -1,0 +1,305 @@
+.nivo-caption {
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    right: 0;
+    overflow: hidden;
+    width: 1080px;
+    margin-left: 0px;
+    top: 40%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-bottom-relative-div{
+    position: relative;
+}
+.banner-bottom{
+    position: relative;
+}
+.banner-bottom-relative-div{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+.banner-bottom-relative-div img{
+    border-radius: 50%;
+}
+.banner-bottom-relative-apsulate-div{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 170px; 
+    width: 170px; 
+    background: rgba(245, 220, 81, 0.678);
+    border-radius: 50%;
+}
+.button-div{
+    background: #ffba00;
+    width: 50%;
+    text-align: right;
+    margin-left: -100px;
+    padding: 10px;
+    transition: .5s;
+}
+.button-div:hover{
+    background: black;
+}
+.button-div a {
+    color: #fbfdff;
+    text-decoration: none;
+}
+/* end banner to banner bottom */
+
+.feater-div .cc {
+    color: darkgray;
+    transform: perspective(0) rotatex(5deg) rotateY(-35deg) skewX(-10deg);
+    transition: .5s;
+}
+.cc:hover{
+    background: #ffba00;
+    color: white;
+}
+.choosing-div{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.9668242296918768) 65%, rgba(206, 194, 20, 0.984) 65%);
+}
+
+/* end card div */
+
+.Industry-Served-div{
+    background-image: url(./img/default-header-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.servicing-div {
+    height: 100px;
+    width: 170px;
+    position: relative;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.Industry-Served-div .servicing-div:hover{
+    background-color: #feb900 !important;
+    color: white;
+}
+
+.Industry-Served-div .servicing-div::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0;
+    border-left: 86px solid transparent;
+    border-right: 83px solid transparent;
+    border-bottom: 55px solid #fff;
+    left: 0;
+    top: -55px;
+}
+.Industry-Served-div .servicing-div::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0;
+    border-left: 85px solid transparent;
+    border-right: 85px solid transparent;
+    border-top: 55px solid #fff;
+    left: 0;
+    bottom: -55px;
+}
+/* end industry served*/
+
+.members-content p {
+    font-size: 12px;
+    margin: 40px 0;
+    color: currentColor;
+}
+.members-content a {
+    display: inline-block;
+    text-decoration: none;
+    background: #ffba00;
+    color: #f9fafd;
+    padding: 10px 20px;
+    font-size: 13px;
+    transition: .5s;
+}
+.members-content a:hover {
+    background: #222222;
+    color: #fff;
+}
+
+.jhs{
+    position: relative;
+}
+.jjj a {
+    padding: 0 10px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.jjj a:hover {
+    color: #141515;
+}
+.member-text h3{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+.members-hover-div span{
+    display: block;
+    color: purple;
+}
+.members-hover-div {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 103%;
+    height: 100%;
+    background: rgba(255, 187, 0, 0.671);
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: .3s;
+    transform-origin: top center;
+    font-weight: 600;
+    color: snow;
+}
+.jhs:hover .members-hover-div{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.aa{
+    width: 100.3%;
+}
+.jhs:hover .ab{
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+/* end empluyes details*/
+.ask-ousrs-div-1{
+     background: rgb(233,180,63);
+     background: linear-gradient(90deg, rgba(233,180,63,0.9836309523809523) 29%, rgba(255,255,255,0.9668242296918768) 29%, rgba(255,255,255,0.9668242296918768) 39%);}
+
+.card-body{
+    position: relative;
+}
+.card-body p{
+    font-size: 14px;
+    color: #555555;
+}
+.card-2-img {
+    position: absolute;
+    top: -25px;
+    left: 160px;
+}
+.rounded-circle {
+    width: 70px;
+    margin: auto;
+    border-radius: 50%;
+    height: 70px;
+}
+
+.card-2-content p {
+    font-size: 14px;
+    color: #555555;
+    padding: 2px 0;
+}
+.card-2-content a {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 5px 20px;
+    background: #ffba00;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    transition: .5s;
+}
+.card-2-content a:hover {
+    background: #000;
+}
+
+.card-bacground{
+    background-image: url(./img/factory-banner-image.png),
+     linear-gradient(rgba(209, 170, 42, 0.801), rgba(212, 176, 57, 0.781));
+     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card-none-bacground{
+    background-image: url(./img/factory-banner-image-2.png),
+     linear-gradient(rgba(209, 170, 42, 0.801), rgba(212, 176, 57, 0.781));
+     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card-none-bacground p{
+    font-size: 18px;
+}
+/* end ask details */
+
+
+.contact-1 p{
+    color: white;
+}
+
+.contact-section {
+    background-image: url(./img/slider3.jpg), linear-gradient(rgba(64, 64, 64, 0.8), rgba(38, 38, 38, 0.78));
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contaact{
+    color: rgba(101, 158, 120, 0.8) !important;
+}
+.contact-1 h5 {
+    color: #ea5967;
+    padding: 20px 0;
+    font-size: 19px;
+    font-weight: 300;
+}
+.faka-div{
+    height: 1px;
+    width: 70px;
+    background: white;
+    margin-top: 27px;
+}
+
+.contact-2 ul li{
+    display:block;
+    line-height:  40px;
+    color: silver;
+}
+.contact-2 ul li a{
+    text-decoration: none;
+    display: inline-block ;
+    color: silver;
+    margin-left: 10px;
+}
+.contact-4 ul li{
+    display:inline-block;
+    color: silver;
+}
+.contact-4 ul li a{
+    text-decoration: none;
+    display: inline-block ;
+    color: rgb(255, 255, 255);
+    background: black ;
+    padding: 1px 6px;
+}
+.contact-4 ul li a:hover{
+    background: #fbb700;
+}
+
+/* end contact section */
+
+
+
